@@ -11,17 +11,18 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mohamed Tajelsir </span>
             from <span className="purple"> Sudan </span>
             <br />
-            I am currently employed as a software developer at Juspay.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I'm a frontend developer passionate about crafting immersive digital
+            experiences. With expertise in clean efficient code and a focus on
+            user-centric design
+            <br />
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Chess
             </li>
             <li className="about-activity">
               <ImPointRight /> Writing
@@ -30,11 +31,6 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Mohamed Tajelsir</footer>
         </blockquote>
       </Card.Body>
     </Card>
