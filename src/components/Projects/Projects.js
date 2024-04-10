@@ -38,7 +38,7 @@ function Projects() {
               title="twitter-clone"
               description="a front-end clone of X formally twitter social media site made react js"
               ghLink="https://github.com/mohamed-taj/React-shop"
-              demoLink="https://react-shop-eight-kappa.vercel.app/"
+              demoLink="https://twitter-clone-seven-brown-72.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
