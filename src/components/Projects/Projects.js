@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import shop from "../../Assets/Projects/shop.png";
 import crypto from "../../Assets/Projects/crypto.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import twitter from "../../Assets/Projects/twitter.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -23,20 +23,20 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={shop}
               isBlog={false}
               title="Store"
               description="an online eccomerce store made with typescript and react js With a focus on user experience efficient state management and integrated secure payment processing for seamless transactions."
+              ghLink="https://github.com/mohamed-taj/React-shop"
+              demoLink="https://react-shop-eight-kappa.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twitter}
+              isBlog={false}
+              title="twitter-clone"
+              description="a front-end clone of X formally twitter social media site made react js"
               ghLink="https://github.com/mohamed-taj/React-shop"
               demoLink="https://react-shop-eight-kappa.vercel.app/"
             />
